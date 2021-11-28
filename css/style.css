@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-image: url(/img/Star-Wars-Battlefront-II-combat.jpg);
     background-repeat: no-repeat;
-    background-position-y: 59px;
+    background-position-y: 57px;
     background-size: 100%;
 }
 
@@ -94,8 +94,8 @@ nav input:-moz-placeholder
 
 .name-of-game {
     color: white;
-    margin-top: 210px;
-    margin-right: 410px;
+    margin-top: 185px;
+    margin-right: 355px;
     text-align: left;
     display: inline-block;
 }
@@ -116,7 +116,7 @@ nav input:-moz-placeholder
 
 .btns-star-wars {
     margin-top: 135px;
-    margin-right: 270px;
+    margin-right: 210px;
 }
 
 .btns-star-wars .btn-watch-trailer {
@@ -151,11 +151,63 @@ nav input:-moz-placeholder
     .main-nav {
         margin-left: 200px;
     }
+
+    .name-of-game {
+        margin-top: 285px;
+        margin-right: 350px;
+    }
+
+    .title-game { 
+        font-size: 56px;
+    }
+
+    .subtitle-game {
+        font-size: 44px;
+    }
+
+    .btns-star-wars {
+        margin-top: 135px;
+        margin-right: 170px;
+    }
+
+    .btns-star-wars .btn-watch-trailer {
+        font-size: 26px;
+    }
+
+    .btns-star-wars .btn-exp-games {
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width: 1710px) and (min-width: 1550px) {
     .navbar input {
         margin-left: 300px;
+    }
+
+    .name-of-game {
+        margin-top: 230px;
+        margin-right: 450px;
+    }
+
+    .title-game { 
+        font-size: 42px;
+    }
+
+    .subtitle-game {
+        font-size: 30px;
+    }
+
+    .btns-star-wars {
+        
+        margin-right: 268px;
+    }
+
+    .btns-star-wars .btn-watch-trailer {
+        font-size: 21px;
+    }
+
+    .btns-star-wars .btn-exp-games {
+        font-size: 21px;
     }
 }
 
@@ -175,6 +227,44 @@ nav input:-moz-placeholder
     nav span {
         font-size: 12px;
     }
+
+    .fa-chevron-left {
+        font-size: 18px;
+        top: 290px;
+        left: 50px;
+    }
+
+    .fa-chevron-right {
+        font-size: 18px;
+        top: 290px;
+        right: 50px;
+    }
+
+    .name-of-game {
+        margin-right: 260px;
+        margin-top: 150px;
+    }
+
+    .title-game {
+        font-size: 32px;
+    }
+
+    .subtitle-game {
+        font-size: 20px;
+    }
+
+    .btns-star-wars {
+        margin-right: 140px;
+        margin-top: 100px;
+    }
+
+    .btns-star-wars .btn-watch-trailer {
+        font-size: 13px;
+    }
+
+    .btns-star-wars .btn-exp-games {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 780px) {
@@ -189,6 +279,44 @@ nav input:-moz-placeholder
 
     nav span {
         font-size: 12px;
+    }
+
+    .fa-chevron-left {
+        font-size: 18px;
+        top: 300px;
+    }
+
+    .fa-chevron-right {
+        font-size: 18px;
+        top: 300px;
+    }
+
+    .name-of-game {
+        margin-right: 205px;
+        margin-top: 110px;
+    }
+
+    .title-game {
+        font-size: 28px;
+    }
+
+    .subtitle-game {
+        font-size: 20px
+    }
+
+    .btns-star-wars {
+        margin-right: 100px;
+        margin-top: 70px;
+    }
+
+    .btns-star-wars .btn-watch-trailer {
+        font-size: 10px;
+        
+    }
+
+    .btns-star-wars .btn-exp-games {
+        font-size: 10px;
+    
     }
 }
 
@@ -237,7 +365,7 @@ nav input:-moz-placeholder
 
     nav input {
         padding: 6px 0px 6px 12px;
-        margin-left: 70px;
+        margin-left: 78px;
         margin-top: 15px;
     }
 
@@ -253,4 +381,55 @@ nav input:-moz-placeholder
     {font-size: 12px;}
     nav input:-moz-placeholder 
     {font-size: 12px;}
+
+    .star-wars {
+        text-align: center;
+    }
+
+    .fa-chevron-right {
+        font-size: 12px;
+        top: 200px;
+        right: 15px;
+    }
+
+    .fa-chevron-left {
+        font-size: 12px;
+        top: 200px;
+        left: 15px;
+    }
+
+    .btns-star-wars {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-right: 0;
+        margin-top: 65px;
+    }
+
+    .btns-star-wars .btn-watch-trailer {
+        font-size: 10px;
+    }
+
+    .btns-star-wars .btn-exp-games {
+        font-size: 10px;
+        margin-left: 0;
+        margin-top: 2px;
+    }
+
+    .name-of-game {
+        text-align: center;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .title-game {
+        font-size: 24px;
+        
+    }
+
+    .subtitle-game {
+        font-size: 16px;
+        
+    }
+
     }
