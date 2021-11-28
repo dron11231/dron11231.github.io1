@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    background-image: url(/img/Star-Wars-Battlefront-II-combat.jpg);
+    background-repeat: no-repeat;
+    background-position-y: 59px;
+    background-size: 100%;
+}
+
+
+
+.header-logo {
+    margin-left: 150px;
+    object-fit: contain;
+}
+
+nav {
+    display: flex;
+    background-color: #373A3C;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.main-nav {
+    display: inline-block;
+}
+
+nav span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.fa-chevron-down {
+    color: #8DD83D;
+    margin-left: 5px;
+}
+
+.fa-user {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #8DD83D;
+    
+}
+
+.user-lk {
+    margin-left: 30px;
+}
+
+nav input {
+    margin-left: 35px;
+    padding: 9px 0px 9px 15px;
+    border-radius: 4px;
+}
+
+.navbar {
+    margin-left: 288px;
+}
+
+.navbar-consoles {
+    margin-left: 25px;
+    margin-right: 21px;
+}
+
+nav input::-webkit-input-placeholder 
+{ color:#435766; font-family: Arial, Helvetica, sans-serif; font-size: 16px; opacity: 0.4;}
+nav input::-moz-placeholder 
+{ color:#435766; font-family: Arial, Helvetica, sans-serif; font-size: 16px; opacity: 0.4;}
+nav input:-ms-input-placeholder 
+{ color:#435766; font-family: Arial, Helvetica, sans-serif; font-size: 16px; opacity: 0.4;}
+nav input:-moz-placeholder 
+{ color:#435766; font-family: Arial, Helvetica, sans-serif; font-size: 16px; opacity: 0.4;}
+
+
+
+.star-wars {
+    text-align: right;
+}
+
+.fa-chevron-left {
+    color: #8DD83D;
+    font-size: 24px;
+    position: absolute;
+    top: 350px;
+    left: 60px;
+}
+
+.fa-chevron-right {
+    color:#8DD83D;
+    font-size: 24px;
+    position: absolute;
+    top: 350px;
+    right: 60px;
+}
+
+.name-of-game {
+    color: white;
+    margin-top: 210px;
+    margin-right: 410px;
+    text-align: left;
+    display: inline-block;
+}
+
+.title-game {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    
+}
+
+.subtitle-game {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: -5px;
+}
+
+.btns-star-wars {
+    margin-top: 135px;
+    margin-right: 270px;
+}
+
+.btns-star-wars .btn-watch-trailer {
+    background-color: #8DD83D;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 24px 9px 19px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.btns-star-wars .btn-exp-games {
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 24px 9px 19px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 1920px) and (min-width: 1710px) {
+
+
+    .navbar input {
+        margin-left: 280px;
+    }
+
+    .main-nav {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 1710px) and (min-width: 1550px) {
+    .navbar input {
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 1000px) {
+    .header-logo {
+        margin-left: 100px;
+    }
+    
+    .navbar {
+        margin-left: 100px;
+    }
+
+    nav input {
+        margin-left: 130px;
+    }
+
+    nav span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 780px) {
+
+    .header-logo {
+        margin-left: 20px;
+    }
+    
+    .navbar {
+        margin-left: 50px;
+    }
+
+    nav span {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 780px) and (min-width: 400px) {
+
+    .container {
+        width: 100%;
+    }
+
+    body {
+        background-position-y: 130px;
+    }
+
+    .user-lk {
+        margin: 0;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .navbar-consoles {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+
+    .header-logo {
+        margin-left: 0;
+        width: 70px;
+        height: 30px;
+    }
+    
+    .navbar {
+        margin-left: 0;
+    }
+
+    nav input {
+        padding: 6px 0px 6px 12px;
+        margin-left: 70px;
+        margin-top: 15px;
+    }
+
+    nav span {
+        font-size: 16px;
+    }
+
+    nav input::-webkit-input-placeholder 
+    {font-size: 12px;}
+    nav input::-moz-placeholder 
+    {font-size: 12px;}
+    nav input:-ms-input-placeholder 
+    {font-size: 12px;}
+    nav input:-moz-placeholder 
+    {font-size: 12px;}
+    }
