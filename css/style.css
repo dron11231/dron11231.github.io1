@@ -70,7 +70,9 @@ nav input:-ms-input-placeholder
 nav input:-moz-placeholder 
 { color:#435766; font-family: Arial, Helvetica, sans-serif; font-size: 16px; opacity: 0.4;}
 
-
+.carousel {
+    text-align: center;
+}
 
 .star-wars {
     text-align: right;
@@ -140,6 +142,20 @@ nav input:-moz-placeholder
     margin-left: 10px;
 }
 
+.fa-circle {
+    color: #8DD83D;
+    font-size: 12px;
+    margin-top: 140px;
+}
+
+.active {
+    background-color: #8DD83D;
+    border-radius: 50px;
+}
+
+.fa-circle:not(:last-of-type) {
+    margin-right: 5px;
+}
 
 @media screen and (max-width: 1920px) and (min-width: 1710px) {
 
@@ -283,12 +299,12 @@ nav input:-moz-placeholder
 
     .fa-chevron-left {
         font-size: 18px;
-        top: 300px;
+        top: 230px;
     }
 
     .fa-chevron-right {
         font-size: 18px;
-        top: 300px;
+        top: 230px;
     }
 
     .name-of-game {
@@ -317,6 +333,11 @@ nav input:-moz-placeholder
     .btns-star-wars .btn-exp-games {
         font-size: 10px;
     
+    }
+
+    .ellipses {
+        display: none;
+        
     }
 }
 
@@ -430,6 +451,10 @@ nav input:-moz-placeholder
     .subtitle-game {
         font-size: 16px;
         
+    }
+
+    .ellipses {
+        display: none;
     }
 
     }
