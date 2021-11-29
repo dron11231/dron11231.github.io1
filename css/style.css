@@ -230,7 +230,9 @@ nav input:-moz-placeholder
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin-left: 21px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
     margin-top: 38px;
     padding: 19px 23px 20px 23px;
 }
@@ -249,6 +251,120 @@ nav input:-moz-placeholder
     margin-top: 33px;
 }
 
+.exclusive-games {
+    background-image: url(/img/Rectangle.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+     background-size: 100%; 
+}
+
+.mask-container {
+    background: rgba(23, 23, 23, 0.5);
+    padding-bottom: 200px;
+}
+
+.exclusive-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 97px;
+    display: inline-block;
+}
+
+.game-cards {
+    display: flex;
+    margin-top: 53px;
+    gap: 29px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.game-card:first-of-type {
+    margin-left: 66px;
+}
+
+.game-card {
+    border: 1px solid #8DD83D;
+    border-radius: 4px;
+    background-color: #fff;
+    padding-bottom: 27px;
+    text-align: left;
+    height: 393px;
+}
+
+.game-card:hover  {
+    height: 420px;
+}
+
+.game-card:hover img {
+    width: 350px;
+    height: 198px;
+}
+
+.game-card:hover .card-name {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.game-card:hover .card-description {
+    margin-left: 25px;
+}
+
+.game-card:hover .btn-see-details {
+    padding: 22px 108px 23px 109px;
+    margin-left: 27px;
+    background-color: #63cb2a;
+}
+
+
+
+.game-card img {
+    width: 318px;
+    height: 180px;
+}
+
+.game-card span {
+    display: block;;
+}
+
+.card-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 22px;
+    margin-left: 21px;
+}
+
+.card-description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    margin-top: 16px;
+    margin-left: 21px;
+}
+
+.btn-see-details {
+    background-color: #8DD83D;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 19px 98px 20px 99px;
+    margin-top: 43px;
+    margin-left: 21px;
+}
+
+.btn-store {
+    color: #fff;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border: none;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    padding: 11px 47px 21px 47px;
+    position: absolute;
+    top: 2220px;
+    left: 597px;
+}
 
 @media screen and (max-width: 1920px) and (min-width: 1710px) {
 
@@ -460,7 +576,7 @@ nav input:-moz-placeholder
     
 }
 
-@media screen and (max-width: 780px) and (min-width: 400px) {
+@media screen and (max-width: 780px) and (min-width: 360px) {
 
     .container {
         width: 100%;
